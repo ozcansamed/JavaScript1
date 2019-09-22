@@ -4,6 +4,7 @@
 
 These are the topics for week 2:
 
+
 1. Statements vs. Expressions
 2. Loops
 3. Control Flow
