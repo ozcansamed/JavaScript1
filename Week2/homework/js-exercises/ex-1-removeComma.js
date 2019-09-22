@@ -16,6 +16,7 @@ myString = myString.replace(/[","]/g, ' ');
 console.log(myString);
 
 console.log('------------');
+
 /* Or we can do this with using split method and join method */
 
 let myString2 = 'hello,this,is,a,difficult,to,read,sentence';
