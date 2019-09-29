@@ -6,7 +6,7 @@ console.log('EXERCISE 4 - The reading list');
 /* First we creat our objects, then using for loop and if
 we can log our reading list. */
 
-let myBookList = [
+const myBookList = [
   {
     title: 'The Count of Monte Cristo',
     author: 'Alexander Dumas',
