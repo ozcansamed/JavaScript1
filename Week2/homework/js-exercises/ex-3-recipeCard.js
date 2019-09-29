@@ -5,7 +5,7 @@ console.log('EXERCISE 3 - The Recipe Card');
 First of all we made an object with 3 properties.
 Then we logged out the properties using loop. */
 
-let myMealRecipe = {
+const myMealRecipe = {
   nameOfMeal: 'meat saute',
   serves: 4,
   ingredients: ['1 kg meat', '7 tomatoes', '11 pepper', 'salt'],
@@ -23,4 +23,6 @@ for (let i = 0; i < myMealRecipe.ingredients.length; ++i) {
 for (let ingredient of myMealRecipe.ingredients) {
   console.log(ingredient);
 }
-*/
+
+Or we could use the Object.keys() method.
+Object.keys(myMealRecipe)*/

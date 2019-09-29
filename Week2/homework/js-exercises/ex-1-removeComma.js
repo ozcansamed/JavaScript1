@@ -13,6 +13,8 @@ In the end our sentence is "hello this is a difficult to read sentence"*/
 let myString = 'hello,this,is,a,difficult,to,read,sentence';
 console.log('The length of my string is ' + myString.length);
 myString = myString.replace(/[","]/g, ' ');
+// And also we could use :
+//myString = myString.replace(/[,]/g, ' ');
 console.log(myString);
 
 console.log('------------');

@@ -6,7 +6,7 @@ console.log('EXERCISE 5 - Who wants a drink?');
 /* We declared our empty array, then with for loop 
 we pushed our drinkTypes. Finally with back tick we logged our sentence.  */
 
-let drinkTray = [];
+const drinkTray = [];
 const drinkTypes = ['cola', 'lemonade', 'water'];
 
 for (let i = 0; i < 5; ++i) {
