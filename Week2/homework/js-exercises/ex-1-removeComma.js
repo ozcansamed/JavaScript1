@@ -10,7 +10,7 @@ It has 2 parameters, first one is what we want to change,
 and the second parameter is the replacing ones.
 In the end our sentence is "hello this is a difficult to read sentence"*/
 
-const myString = 'hello,this,is,a,difficult,to,read,sentence';
+let myString = 'hello,this,is,a,difficult,to,read,sentence';
 console.log('The length of my string is ' + myString.length);
 myString = myString.replace(/[","]/g, ' ');
 // And also we could use :
