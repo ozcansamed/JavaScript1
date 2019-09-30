@@ -51,4 +51,4 @@ for (let item in cartForParty2) {
   }
 }
 
-console.log('\nYour total cost is ' + total + ' €.');
+console.log();
