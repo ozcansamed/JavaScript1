@@ -22,9 +22,13 @@ function giveCompliment(name) {
     'incredible',
     'marvelous',
   ];
-  let randomCompliment = complimentArr[Math.floor(Math.random() * (complimentArr.length - 1))];
-  let complimentText = `You are ${randomCompliment.toLocaleUpperCase()}, ${name.toLocaleUpperCase()}!`;
+  const randomCompliment = complimentArr[Math.floor(Math.random() * (complimentArr.length - 1))];
+  const complimentText = `You are ${randomCompliment.toLocaleUpperCase()}, ${name.toLocaleUpperCase()}!`;
   return complimentText;
+  /*or we can abbreviate the return part like this:
+  return `You are ${complimentArr[
+    Math.floor(Math.random() * (complimentArr.length - 1))
+  ].toLocaleUpperCase()}, ${name.toLocaleUpperCase()}!`; */
 }
 console.log(giveCompliment('David'));
 console.log(giveCompliment('Yash'));
