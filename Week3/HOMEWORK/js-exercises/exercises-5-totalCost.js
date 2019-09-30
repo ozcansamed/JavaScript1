@@ -29,12 +29,12 @@ console.log('Your total cost is ' + calculateTotalPrice(cartForParty) + ' €.')
 
 // If one of the value is NaN, then our function could crash.
 // Therefore I used if else statement in the second version.
-console.log('\n----THIS IS SECOND VERSION-----\n');
+console.log('\n----THIS IS SECOND VERSION,-----\n');
 
 let cartForParty2 = {
   cola: 3.25,
   chips: 2.75,
-  gum: 'three',
+  gum: 'Three',
   biscuits: 1.75,
   chocolate: 0.9,
 };
