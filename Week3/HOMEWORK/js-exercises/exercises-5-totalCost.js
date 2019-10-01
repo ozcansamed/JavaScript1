@@ -24,31 +24,3 @@ const cartForParty = {
   chocolate: 0.9,
 };
 console.log('Your total cost is ' + calculateTotalPrice(cartForParty) + ' €.');
-
-// ----------SECOND VERSION---------
-
-// If one of the value is NaN, then our function could crash.
-// Therefore I used if else statement in the second version.
-console.log('\n----THIS IS SECOND VERSION,-----\n');
-
-let cartForParty2 = {
-  cola: 3.25,
-  chips: 2.75,
-  gum: 'Three',
-  biscuits: 1.75,
-  chocolate: 0.9,
-};
-
-let total = 0;
-for (let item in cartForParty2) {
-  if (typeof cartForParty2[item] !== 'number') {
-    console.log(
-      cartForParty2[item] +
-        ' is not a number value! \nPlease enter the price of your items with numbers.',
-    );
-  } else {
-    total += cartForParty2[item];
-  }
-}
-
-console.log();
