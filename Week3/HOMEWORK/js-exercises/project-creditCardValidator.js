@@ -15,7 +15,7 @@ function validateCreditCardNumber(cardNumber) {
     numbers = cardNumber.split('');
   } else {
     // else
-    return `Error: INVALID Card Number! Your credit card number digits must be numbers!`;
+    return `Error: INVALID Card Number!`;
   }
 
   for (const character of numbers) {
@@ -33,7 +33,7 @@ function validateCreditCardNumber(cardNumber) {
 
   let sumOfAllDigits = 0;
   for (const character of numbers) {
-    const number = +character; // it makes string to number
+    const number = +character;
     digits[number] += 1;
     sumOfAllDigits += number;
   }
